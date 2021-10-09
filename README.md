@@ -27,9 +27,9 @@ echo "sources/boot.wim" > include.txt
 Mount your partitions with non-root privileges (`udisks2` or your file manager of choice, since `mount` requires `sudo`)
 
 ```
-7z x -x@exclude.txt Win10_21H1_EnglishInternational_x64.iso -o/media/user/UEFI_BOOT/
-7z x -i@include.txt Win10_21H1_EnglishInternational_x64.iso -o/media/user/UEFI_BOOT/
-7z x -i@exclude.txt Win10_21H1_EnglishInternational_x64.iso -o/media/user/Win10/
+7z x -x@exclude.txt Win10_21H1_EnglishInternational_x64.iso -o/media/$(whoami)/UEFI_BOOT/
+7z x -i@include.txt Win10_21H1_EnglishInternational_x64.iso -o/media/$(whoami)/UEFI_BOOT/
+7z x -i@exclude.txt Win10_21H1_EnglishInternational_x64.iso -o/media/$(whoami)/Win10/
 ```
 
 Done. You're ready to begin your installation
