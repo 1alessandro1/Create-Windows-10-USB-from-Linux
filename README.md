@@ -36,4 +36,6 @@ Done. You're ready to begin your installation
 
 ## Credits
 
-This guide is inspired from this article: https://techbit.ca/2019/02/creating-a-bootable-windows-10-uefi-usb-drive-using-linux/ all credits to the original writer.
+This small guide is inspired from this article: 
+
+- https://techbit.ca/2019/02/creating-a-bootable-windows-10-uefi-usb-drive-using-linux/ all credits to the original writer.
